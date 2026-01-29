@@ -12,6 +12,8 @@ var app = builder.Build();
 
 //call the extension method to map the endpoints
 app.MapGamesEndpoints();
+//call the extension method to map the endpoints
+app.MapGenreEndpoints();
 
 app.MigrateDb();
 
